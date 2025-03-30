@@ -1,0 +1,63 @@
+{
+        "bindAddress": "10.16.1.20",
+        "bindPort": 2001,
+        "publicAddress": "",
+        "publicPort": 2001,
+        "a2s": {
+                "address": "10.16.1.20",
+                "port": 17777
+        },
+        "rcon": {
+                "address": "10.16.1.20",
+                "port": 19999,
+                "password": "changeme_withoutspaces",
+                "permission": "monitor",
+                "blacklist": [],
+                "whitelist": []
+        },
+        "game": {
+                "name": "vGriz.com ARMA | All Welcome",
+                "password": "",
+                "passwordAdmin": "p@ssword12",
+                "admins" : [
+                        "76561198278746847",
+                        "76561197976316851",
+                        "76561197977775526"
+                ],
+                "scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
+                "maxPlayers": 128,
+                "visible": true,
+                "crossPlatform": true,
+                "supportedPlatforms": [
+                        "PLATFORM_PC",
+                        "PLATFORM_XBL",
+                        "PLATFORM_PSN"
+                ],
+                "gameProperties": {
+                        "serverMaxViewDistance": 2500,
+                        "serverMinGrassDistance": 50,
+                        "networkViewDistance": 1000,
+                        "disableThirdPerson": true,
+                        "fastValidation": true,
+                        "battlEye": true,
+                        "VONDisableUI": true,
+                        "VONDisableDirectSpeechUI": true,
+                        "missionHeader": {
+                                "m_iPlayerCount": 40,
+                                "m_eEditableGameFlags": 6,
+                                "m_eDefaultGameFlags": 6,
+                                "other": "values"
+                        }
+                }
+        },
+        "operating": {
+                "lobbyPlayerSynchronise": true,
+                "joinQueue" : {
+                        "maxSize" : 12
+                },
+                "disableNavmeshStreaming": [
+                        "Soldiers",
+                        "BTRlike"
+                ]
+        }
+}
