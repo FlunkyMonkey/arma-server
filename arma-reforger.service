@@ -1,0 +1,15 @@
+[Unit]
+Description=ARMA Reforger Server
+After=network.target
+
+[Service]
+Type=simple
+User=mikeb
+WorkingDirectory=/home/mikeb/arma
+ExecStart=/home/mikeb/arma/ArmaReforgerServer -config /home/mikeb/arma/config/config.json -maxFPS 60
+Restart=on-failure
+RestartSec=5
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target
