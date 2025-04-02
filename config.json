@@ -21,7 +21,7 @@
                 "passwordAdmin": "p@ssword12",
                 "admins" : [
                         "76561198278746847",
-                        "76561197976316851",
+                        "76561197976316851"
                 ],
                 "scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
                 "maxPlayers": 128,
